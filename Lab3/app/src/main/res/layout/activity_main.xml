@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#00bf00">
+
+    <TextView android:id="@+id/onCreateString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onCreateString"
+        android:textSize="26dp"
+        android:textColor="#ffffff" />
+
+    <TextView android:id="@+id/onStartString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onStartString"
+        android:textSize="26dp"
+        android:textColor="#ffffff" />
+
+    <TextView android:id="@+id/onResumeString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onResumeString"
+        android:textSize="26dp"
+        android:textColor="#ffffff" />
+
+    <TextView android:id="@+id/onPauseString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onPauseString"
+        android:textSize="26dp"
+        android:textColor="#ffffff" />
+
+    <TextView android:id="@+id/onStopString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onStopString"
+        android:textSize="26dp"
+        android:textColor="#ffffff" />
+
+    <TextView android:id="@+id/onRestartString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onRestartString"
+        android:textSize="26dp"
+        android:textColor="#ffffff" />
+
+    <TextView android:id="@+id/onDestroyString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onDestroyString"
+        android:textSize="26dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="launchActivityTwo"
+        android:text="@string/goToActivityTwoString"
+        android:id="@+id/goToActivityTwoButton"
+        android:textSize="26dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clearAllString"
+        android:id="@+id/clearAllButton"
+        android:textSize="26dp"
+        android:onClick="clearAll" />
+
+</LinearLayout>

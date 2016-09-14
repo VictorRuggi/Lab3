@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="onCreateString">On Create Count: </string>
+    <string name="onStartString">On Start Count: </string>
+    <string name="onResumeString">On Resume Count: </string>
+    <string name="onPauseString">On Pause Count: </string>
+    <string name="onStopString">On Stop Count: </string>
+    <string name="onRestartString">On Restart Count: </string>
+    <string name="onDestroyString">On Destroy Count: </string>
+    <string name="goToActivityTwoString">Go To Activity Two</string>
+    <string name="clearAllString">Clear All</string>
+</resources>
